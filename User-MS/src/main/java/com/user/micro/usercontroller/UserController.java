@@ -10,7 +10,7 @@ public class UserController {
 
 	@GetMapping("/status/check")
 	public String getStatus() {
-		return "Welcome to User Microservice";
+		return "Welcome to User Microservice ";
 	}
 	
 }
